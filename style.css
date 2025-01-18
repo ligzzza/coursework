@@ -94,8 +94,8 @@ main {
 
 .plant-list {
     display: flex;
-    justify-content: left;
-    flex-wrap: nowrap;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -161,14 +161,14 @@ main {
 .plant-list1 {
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 50px;
 }
 .plant-card1 {
     background: #5a5a5a;
     border-radius: 12px;
     padding: 15px;
-    width: 250px;
+    width: 290px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     text-align: center;
     font-size: 18px;
@@ -178,7 +178,7 @@ main {
     background: #5a5a5a;
     border-radius: 12px;
     padding: 15px;
-    width: 250px;
+    width: 290px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     text-align: center;
     font-size: 18px;
@@ -188,7 +188,7 @@ main {
     background: #5a5a5a;
     border-radius: 12px;
     padding: 15px;
-    width: 250px;
+    width: 290px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     text-align: center;
     font-size: 18px;
@@ -337,5 +337,96 @@ footer {
 }
 
 .popular1 .container1 p{
+    font-size: 19px;
+}
+
+
+.popular1 .container2{
+    background-color: white;
+    width: 85%;
+    margin: 20px 20px;
+    max-width: 1300px;
+    padding: 30px;
+    border-radius: 20px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.popular1 .container2 img{
+    height: 400px;
+    width: 400px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
+}
+
+.popular1 .container2 p{
+    font-size: 19px;
+}
+
+
+.popular1 .container3{
+    background-color: white;
+    width: 85%;
+    max-width: 1300px;
+    border-radius: 20px;
+}
+
+.popular1 .container3 img{
+    height: 300px;
+    width: 200px;
+    float: right;
+    margin-left: 40px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.popular1 .container3 p{
+    font-size: 19px;
+}
+
+.popular1 .container4{
+    background-color: white;
+    width: 85%;
+    max-width: 1300px;
+    border-radius: 20px;
+}
+
+.popular1 .container4 img{
+    height: 200px;
+    width: 230px;
+    float: right;
+    margin-left: 40px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.popular1 .container4 p{
+    font-size: 19px;
+}
+
+
+.popular1 .container5{
+    background-color: white;
+    width: 85%;
+    max-width: 1300px;
+    border-radius: 20px;
+}
+
+.popular1 .container5 img{
+    height: 200px;
+    width: 300px;
+    float: right;
+    margin-left: 40px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.popular1 .container5 p{
     font-size: 19px;
 }
