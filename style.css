@@ -65,7 +65,7 @@ header nav {
 
 header nav a {
     color: #bcbcbc;
-    margin-left: 0rem; /*хуйня для дибилов нахуй*/
+    margin-left: 0rem; 
     line-break: 5rem;
 }
 
@@ -429,4 +429,104 @@ footer {
 
 .popular1 .container5 p{
     font-size: 19px;
+}
+
+.otz {
+    background-color: #a7a7a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.feedback-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+}
+
+.feedback-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 4px;
+    color: #555;
+    font-size: 18px;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.feedback-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.feedback-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.feedback-form .rating {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 15px;
+    direction: ltr;
+    flex-direction: row-reverse;
+}
+
+.feedback-form .rating label {
+    cursor: pointer;
+    font-size: 24px;
+    color: #ccc;
+    order: 1;
+}
+
+.feedback-form .rating input[type="radio"] {
+    display: none;
+}
+
+.feedback-form .rating input[type="radio"]:checked ~ label {
+    color: #ffc107;
+}
+
+.feedback-form .rating label:hover,
+.feedback-form .rating label:hover ~ label {
+    color: #ffc107;
+}
+
+.otz1 {
+    background-color: #a7a7a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    margin: 0;
 }
