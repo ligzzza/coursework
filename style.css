@@ -530,3 +530,98 @@ footer {
     height: 35vh;
     margin: 0;
 }
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 3rem 0;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .plant-card, .plant-card1, .plant-card2, .plant-card3, .plant-card4, .plant-card21, .plant-card31 {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .news-item {
+        width: 100%;
+    }
+
+    .popular1 .container img, .popular1 .container1 img, .popular1 .container2 img, .popular1 .container3 img, .popular1 .container4 img, .popular1 .container5 img {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .feedback-form {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        padding: 4rem 0;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .plant-card, .plant-card1, .plant-card2, .plant-card3, .plant-card4, .plant-card21, .plant-card31 {
+        width: 45%;
+    }
+
+    .news-item {
+        width: 80%;
+    }
+
+    .popular1 .container img, .popular1 .container1 img, .popular1 .container2 img, .popular1 .container3 img, .popular1 .container4 img, .popular1 .container5 img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    header {
+        padding: 5.5rem 0;
+    }
+
+    header h1 {
+        font-size: 4rem;
+    }
+
+    .container {
+        width: 85%;
+        max-width: 1300px;
+    }
+
+    .plant-card, .plant-card1, .plant-card2, .plant-card3, .plant-card4, .plant-card21, .plant-card31 {
+        width: 250px;
+    }
+
+    .news-item {
+        width: 450px;
+    }
+
+    .popular1 .container img, .popular1 .container1 img, .popular1 .container2 img, .popular1 .container3 img, .popular1 .container4 img, .popular1 .container5 img {
+        width: 400px;
+        height: auto;
+    }
+}
