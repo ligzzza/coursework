@@ -61,11 +61,12 @@ header h1 {
 
 header nav {
     margin-top: 0.5rem;
+    margin-left: -1rem;
 }
 
 header nav a {
     color: #bcbcbc;
-    margin-left: 0rem; 
+    margin-left: 1rem; 
 }
 
 main {
@@ -495,7 +496,7 @@ footer {
 
 .feedback-form .rating {
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     margin-bottom: 15px;
     direction: ltr;
     flex-direction: row-reverse;
